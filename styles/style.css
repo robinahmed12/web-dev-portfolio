@@ -168,7 +168,7 @@ header {
     line-height: 1.3em;
     width: 827px;
     height: 120px;
-
+    padding: 0 15px;
 }
 
 
@@ -177,7 +177,7 @@ header {
 .container .about-content .heading {
     line-height: 1.7em;
     margin-bottom: 15px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .container .about-content .about-info {
@@ -186,6 +186,7 @@ header {
     align-items: center;
     margin-top: 17px;
     gap: 60px;
+    padding-bottom: 15px;
 }
 
 .about-content .about-info .about-item .item-title{
@@ -200,7 +201,61 @@ header {
 }
 
 
-
-
 /***** End about *****/
+
+
+/***** what i do *****/ 
+.Bio-section .bio-heading {
+    text-align: center;
+}
+.bio-heading .heading {
+    margin-bottom: 15px;
+}
+.bio-heading .sub-heading {
+    margin: 0 200px;
+    height: 90px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    color: var(--text-color);
+}
+
+.container .card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 60px;
+   
+}
+
+.card-box .card-content {
+    width: 267px;
+    height: 377px;
+    margin-left: 68px;
+    border: 1px solid rgb(233, 232, 232);
+    padding: 12px 12px;
+}
+
+.card-box .card-content .card-logo {
+    width: 44px;
+    height: 44px;
+}
+
+.card-content .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-top: 15px;
+}
+
+.card-content .card-description {
+    width: 200px;
+    height: 180px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-top: 15px;
+}
+ /***** End what i do *****/
+
 
