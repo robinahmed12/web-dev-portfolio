@@ -135,4 +135,72 @@ header {
 
 /***** End hero *****/
 
+/***** about *****/  
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    
+}
+
+
+.container .about-content {
+    background-color: #FFF8F3 ;
+    padding: 130px 150px;
+    text-align: center;
+  
+   
+}
+
+.container .about-content .about-child {
+    background-color: white;
+    border: solid 1px black;
+    width: 827px;
+    
+}
+ 
+
+.container .about-content .about-child .about-description {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.3em;
+    width: 827px;
+    height: 120px;
+
+}
+
+
+
+
+.container .about-content .heading {
+    line-height: 1.7em;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.container .about-content .about-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+    gap: 60px;
+}
+
+.about-content .about-info .about-item .item-title{
+    color: #474747;
+    font-weight: 400;
+    font-size: 18px;
+}
+.about-item .item-description{
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+/***** End about *****/
 
